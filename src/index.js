@@ -8,8 +8,4 @@ export const todoList = new TodoList();
 
 todoList.todos.forEach( todo => crearTodoHtml( todo ) )
 
-/* const newTodo = new Todo('Aprender javascript')
-todoList.nuevoTodo( newTodo ) */
-
-
 console.log( 'todos', todoList.todos );
